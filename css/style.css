@@ -5,16 +5,18 @@
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
-    
+}
+html{
+    scroll-behavior: smooth;
 }
 body{
     max-width: 1980px;
     width: 100%;
-    height: 900px;
+    /* height: 900px; */
     font-size: 100%;
     background: linear-gradient(68.15deg, #0B0A07 16.62%, #6F6866 85.61%);
     color: #EADEDA;
-    overflow: hidden;
+    /* overflow: hidden; */
 
 }
 .cabecalho {
@@ -22,10 +24,10 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    padding: 10px;
+    padding: 1vh;
 }   
 .cabecalho-imagem{
-    height: 72px;
+    height: 9vh;
 }
 .avatarPerfil{
     height: 256px;
@@ -50,18 +52,18 @@ body{
     margin-bottom: 32px;
 }
 .conteudo-principal{
-    height: 300px;
+    height: 45vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .conteudo-principal-escrito{
     height: 300px;
     display: flex;
     flex-direction: column;
-    gap: 32px;
+    gap: 12px;
 }
 .ola{
     font-family: 'Sarala', sans-serif;
@@ -69,6 +71,12 @@ body{
     font-size: 24px;
     color: beige;
     margin-top: 25px;
+}
+.euSou{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: beige;
 }
 .nome{
     font-family: 'Righteous', cursive;
@@ -109,9 +117,9 @@ body{
     border-radius: 8px;
     max-width: 1120px;
     width: 100%;
-    height: 280;
+    height: 42vh;
     background-color: transparent;
-    padding: 20px;
+    padding: 3vh;
 }
 
 .slide-content{
@@ -221,7 +229,7 @@ body{
     body{
         max-width: 1080px;
         width: 100%;
-        height: 900px;
+        /* height: 900px; */
         font-size: 100%;
         background: linear-gradient(68.15deg, #0B0A07 16.62%, #6F6866 85.61%);
         color: #EADEDA;
@@ -233,11 +241,11 @@ body{
         flex-direction: row;
         align-items: center;
         justify-content: space-around;
-        padding: 5px;
+        padding: 1vh;
         height: 60px;
     }  
     .cabecalho-imagem{
-        height: 56px;
+        height: 9vh;
     }
     .avatarPerfil{
         margin-top: 20px;
@@ -249,18 +257,19 @@ body{
         margin-bottom: 16px;
     }
     .conteudo-principal{
-        height: 260px;
+        height: 40vh;
         display: flex;
         flex-direction: row;
         align-items: flex-start;
         justify-content: space-around;
-        margin-bottom: 30px;
+        margin-bottom: 2vh;
     }
     .conteudo-principal-escrito{
         height: 196px;
         display: flex;
         flex-direction: column;
         gap: 24px;
+        left: 10px;
     }
     .ola{
         font-family: 'Sarala', sans-serif;
@@ -282,11 +291,11 @@ body{
         color: beige;
     }
     .card{
-        height: 276px;
+        height: 38vh;
     }
     .description{
         font-family: 'Sarala', sans-serif;
-        font-size: 15px;
+        font-size: 14px;
         color: #333333;
         text-align: center;
     }
@@ -312,5 +321,11 @@ body{
     }
     .swiper-navBtn{
         display: none;
+    }
+    .apresentacaoHabilidades{
+        margin-top: 3vh;
+    }
+    .swiper-pagination{
+        margin-top: 50px;
     }
 }
